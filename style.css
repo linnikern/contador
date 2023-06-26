@@ -1,12 +1,4 @@
-@media (max-width: 1080px) {
-  /* Estilos para telas menores que 768px de largura */
-  /* Aplique aqui alterações para dispositivos móveis */
-}
 
-@media (min-width: 769px) {
-  /* Estilos para telas maiores ou iguais a 769px de largura */
-  /* Aplique aqui alterações para desktops e tablets */
-}
 
 body {
   margin: 0;
@@ -37,6 +29,7 @@ body {
   color: #fff;
   font-size: 50px;
   margin-top: 10px;
+  margin-left: auto;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);  
 }
 
@@ -44,9 +37,9 @@ body {
   font-family: "Inter", sans-serif;
   font-size: 48px;
   text-align: center;
-  color: #ff0000; /* Altere a cor do texto */
-  background-color: #91ff00; /* Altere a cor de fundo */
-  padding: 20px; /* Adicione um espaçamento interno */
+  color: #ff0000; 
+  background-color: #91ff00; 
+  padding: 20px; 
 }
 
 #countdown {
