@@ -1,3 +1,15 @@
+@media (max-width: 1080px) {
+  /* Estilos para telas menores que 768px de largura */
+  /* Aplique aqui alterações para dispositivos móveis */
+}
+
+@media (min-width: 769px) {
+  /* Estilos para telas maiores ou iguais a 769px de largura */
+  /* Aplique aqui alterações para desktops e tablets */
+}
+
+
+
 body{
 
   margin: 0;
@@ -21,14 +33,17 @@ body{
       z-index: -1;
     }
 
-   #texto {
-      font-family: "Inter", sans-serif;  
+   #texto { 
+    font-family: "Inter", sans-serif;  
       text-align: start;
+      display: flex;
       color: #fff;
       font-size: 50px;
       margin-top: 10px;
-      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7)
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    
     }
+ 
 
 
 #countdown {
